@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Mi Agenda Personal</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+
+  <ion-icon name="book" style="font-size: 80px; color: #3880ff; margin-top: 40px;"></ion-icon>
+
+  <h2>Bienvenido</h2>
+  <p>Gestiona tus contactos de manera fácil y rápida.</p>
+
+  <ion-button expand="block" (click)="goToList()" class="ion-margin-top">
+    <ion-icon name="list" slot="start"></ion-icon>
+    Ver Lista de Contactos
+  </ion-button>
+
+  <ion-button expand="block" fill="outline" (click)="goToTabs()" class="ion-margin-top">
+    <ion-icon name="apps" slot="start"></ion-icon>
+    Ir a la Agenda
+  </ion-button>
+
+  <ion-button expand="block" fill="outline" color="secondary" (click)="goToEncuesta()" class="ion-margin-top">
+    <ion-icon name="clipboard" slot="start"></ion-icon>
+    Encuesta de Satisfacción
+  </ion-button>
+
+</ion-content>

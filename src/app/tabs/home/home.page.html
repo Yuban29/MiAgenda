@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/blank"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Mi Agenda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Bienvenido a tu Agenda</ion-card-title>
+      <ion-card-subtitle>Tienes {{ totalContactos }} contactos guardados</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Aquí puedes ver un resumen de tu agenda personal.
+      Presiona el botón para ver todos tus contactos.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" (click)="verLista()" class="ion-margin-top">
+    <ion-icon name="list" slot="start"></ion-icon>
+    Ver todos los contactos
+  </ion-button>
+
+</ion-content>

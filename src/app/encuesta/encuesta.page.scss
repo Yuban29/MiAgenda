@@ -1,0 +1,43 @@
+.estrellas {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.estrella-icon {
+  font-size: 36px;
+  color: #f4c430;
+  cursor: pointer;
+}
+
+.calificacion-texto {
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.exito-container {
+  padding-top: 40px;
+}
+
+.exito-icon {
+  font-size: 80px;
+  color: #2dd36f;
+}
+
+.exito-container h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.exito-container p {
+  color: #888;
+}
+
+.resumen-card {
+  text-align: left;
+  margin-top: 20px;
+}
